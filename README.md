@@ -1,2 +1,1 @@
-# 230OB
-Introducing 230OB, an Out-of-Band XXE tool for retrieving files via FTP.
+<img src="https://github.com/sxcurity/230-OOB/raw/master/logo.png">
