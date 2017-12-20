@@ -3,6 +3,6 @@
 <br>
 <b>Out-of-Band XXE tool</b>
 <br/>
-A python script to retrieve file contents via FTP! 
+A python script to achieve file read via FTP!
 <br/>
 </div>
