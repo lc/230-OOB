@@ -44,7 +44,7 @@ def main():
         sys.exit() 
 
     s.listen(10)
-    print('[+] 230OB started on port: '+str(PORT))
+    print('[+] 230OOB started on port: '+str(PORT))
 
 
     conn, addr = s.accept()
