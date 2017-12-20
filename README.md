@@ -1,2 +1,2 @@
-# 230OB 💻
-Introducing 230OB, an Out-of-Band XXE tool for reading remote files via FTP.
+# 230OB
+Introducing 230OB, an Out-of-Band XXE tool for retrieving files via FTP.
