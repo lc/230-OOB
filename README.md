@@ -8,7 +8,7 @@ A python script to achieve file read via FTP!
 </div>
 <hr/>
 <div align="center">
-230OOB is a tool that emulates an FTP server, assisting you in achieving file read by exploiting Out-of-Band XXE. 
+230OOB is a tool that emulates an FTP server, assisting you in achieving file read via Out-of-Band XXE. 
 </div>
 
 ### Installation
