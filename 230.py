@@ -13,7 +13,7 @@ name = """
 |    / __/ (__ \| | | | | | |  _ (     |
 |   | |___ ___) ) |_| | |_| | |_) )    |
 |   |_____|____/ \___/ \___/|____/     |
-| 	       by Corben Douglas       |
+| 	       by Corben Leo           |
 |                                      |
 |      - https://sxcurity.github.io    |
 |      - https://hackerone.com/cdl     |
@@ -23,7 +23,7 @@ name = """
 
 print(name)
 
-parser = argparse.ArgumentParser(description='An Out-of-Band XXE tool by Corben Douglas')
+parser = argparse.ArgumentParser(description='An Out-of-Band XXE tool by Corben Leo')
 parser.add_argument('port',type=int,help="Port for the FTP server to listen on (2121 / 21)")
 args = parser.parse_args()
 
