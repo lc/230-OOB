@@ -15,9 +15,9 @@ name = """
 |   |_____|____/ \___/ \___/|____/     |
 | 	       by Corben Leo           |
 |                                      |
-|      - https://sxcurity.github.io    |
+|      - https://www.corben.io         |
 |      - https://hackerone.com/cdl     |
-|      - https://twitter.com/sxcurity  |
+|      - https://twitter.com/hacker_   |
 =--------------------------------------=
 """
 
