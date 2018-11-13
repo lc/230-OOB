@@ -54,7 +54,7 @@ def main():
 
     while True:
         data = conn.recv(1024)
-        ftp_command = data.split(" ", 1)
+        ftp_command = data.split(b" ", 1)
         response = {
             'user': ftp_user_response,
             'pass': ftp_pass_response,
